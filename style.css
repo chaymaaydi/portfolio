@@ -1,30 +1,242 @@
-nav{
-    display: inline-block;
-    font-size: 30px;
-}
 body{
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    background-color:#ecc6d9;
-    text-align: center;
-    margin-left: 150px;
-    margin-right: 150px;
+	margin:0px;
+	padding:0px;
 }
-#About{
-    color: #cc6699;
+header{
+	display: flex;
+	justify-content: space-evenly;
+	align-items: baseline;
+	position: fixed;
+	background-color:#fff;
+	top:0;
+	height: 50px;
+	width: 100%;
+	overflow: hidden;
 }
-#Contactme{
-    color:#cc6699 ;
+li{
+	display: inline;
+}	
+li a{
+	text-decoration: none;
+	margin: 10px;
+	color: #ababab;
+	
+}
+main{
+	text-align: center;
+	margin-top: 50px;
+}
+h1{
+	color: #00b39b;
+	font-family: Work Sans,Arial,sans-serif;
+    font-weight: initial;
+}
+p{
+	text-align: left;
+}
+#paragraph{
+	display: flex;
+	justify-content: center;
+}
+#paragraph p{
+	width: 35%;
+	color: #818080;;
+	font-family: Roboto,Arial,sans-serif;
+	font-weight: 400px;
+}
+.card{
+	display: flex;
+	justify-content: center;
+	justify-content: space-evenly;
+	margin-top: 20px;
+	width:95%;
+	height: 400px;
+}
+#Forpatients{
+	background-color: #00CCB1;
+	color: white;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size:24px;
+	border-radius: 7px;
+	width: 20%;
+	height: 350px;
+	padding: 30px;
+	padding-bottom: 10px;
+	height: 340px;	
+}
+	
+select{
+	background-color: transparent;
+	border: none;
+	color: #fff;	
+}
+#Fordoctors{
+	background-color:#3D83DF;
+	color: white;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size:24px;
+	border-radius: 7px;
+	width: 20%;
+	padding: 30px;
+	padding-bottom: 10px;
+	margin-bottom: 200px;
+	height: 340px;
+}
+#Forclinics{
+	background-color:#1B2734;
+	color: white;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size:24px;
+	border-radius: 7px;
+	width: 20%;
+	padding: 22px 20px 0px;
+	height: 357px;
+}
+#a{
+	margin-top: 110px;
+}
+#b{
+	margin-top: 80px;
+}
+#img1{
+	float: left;
+	padding-top:10px;
+}
+#c{
+	color:#00B39B;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size:26px;
+	font-weight: initial;
+	float: left;
+}
+#f{
+	display: flex;
+	justify-content: space-evenly;
+	
+
+}
+#g{
+	margin-top: 110px;
+}
+#grid{
+	background-color: #e5faf8;
+	display: flex;
+	justify-content: space-evenly;
+	width: 949px;
+	height: 573px;
+	padding-right: 200px;
+	padding-left: 200px;
+	padding-top: 20px;
+}
+#col1{
+	background-color: #FFFF;
+	padding: 15px;
+	width:200px ;
+	height: 200.75px;
+	margin-top: 20px;
+	margin-right: 20px;
+	margin-left: 20px;
+	border-radius: 7px;
+}
+#h2{
+	color: #00B39B;
+	font-weight: initial;
+	font-family:Arial, Helvetica, sans-serif;
+	
+	
+}
+#h5{
+	color: #747474;
+	font-weight: initial;
+}
+#div1{
+	margin-top: 25px;
+}
+#h3{
+	color: #747474;
+	font-weight: initial;
+	text-align: left;
+}
+#e{
+	color: #00b39b;
+	font-family: Work Sans,Arial,sans-serif;
+    font-weight: initial;
+	text-align: left;
+}
+#h1{
+	color: #00b39b;
+	font-family: Work Sans,Arial,sans-serif;
+    font-weight: initial;
+}
+#ok{
+	padding-right:450px ;
+	padding-left: 450px;
+	padding-top: 100px;
+	padding-bottom: 40px;
+}
+#offices-slider{
+	width: 1000px;
+	height: 200px;
+	padding-left: 170px;
+	margin-bottom: 400px;
+}
+#k{
+	display: flex;
+	justify-content: space-evenly;
+	padding-top: 30px;
+}
+#photo{
+	float: left;
+	padding-left: 20px;
+	padding-top: 30px;
+}
+#img2{
+	border-radius: 7px;
+}
+#button{
+	color: #FFFFFF;
+	background-color: #3D83DF;
+	padding: 10px 15px;
+	float: right;
+	font-size: 9px;
+    padding:9px;
+    letter-spacing: .04em;
+	border-radius: 5px;
+	border-color: white;
+	margin-top: 10px;
+}
+#label{
+	color: #747474;
+	float:left;
+	padding: 20px;
+	font-size: larger;
+	font-style:initial ;
+}
+#h{
+	padding-top: 600px;
+	padding-bottom: 100px;
+}
+#title{
+	font-family: Work Sans,Arial,sans-serif;
+    font-weight: initial;
+	color: black;
+}
+#button2{
+	color: #FFFFFF;
+	background-color: #3D83DF;
+	letter-spacing:.04em;
+	font-size: 15px;
+	padding-bottom: 10px;
+	padding-top: 10px;
+	padding-right: 10px;
+	padding-left: 10px;
+	border-radius:5px ;
+	border-color: white;
 }
 footer{
-    background:rgb(158, 50, 104) ;
-}
-ul{
-    display: flex;
-}
-ul li{
-    margin: 10px;
-    list-style: none;
-}
-ul li a{
-    text-decoration: none;
+	border-top: 1px solid #eef2f2;
+    text-align: center;
+    padding: 1em 0;
+	padding-right: 200px;
+	padding-left: 200px;
 }
